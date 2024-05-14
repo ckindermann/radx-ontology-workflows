@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: https://github.com/bmir-radx/rxow/rxow/releases/2024-05-14/rxow.owl
+ontology: https://github.com/bmir-radx/rxow/rxow.owl
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "RADx Ontology Workflows" xsd:string
+property_value: owl:versionInfo "2024-05-14" xsd:string
+
+[Term]
+id: RXOW:0000000
+name: root node
+
