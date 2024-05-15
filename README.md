@@ -11,17 +11,18 @@ We use the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontolog
 Every branch in this repository specifies a separate workflow and exemplifies the results of its execution.
 
 Every branch in this repository specifies a separate workflow and exemplifies the results of its execution.
-This branch (**main**) specifies the workflow for creating a new ontology repository. All other workflows require an existing ontology repository and branch off **main**.
+This branch (**main**) specifies the workflow for creating a new ontology repository.
+All other workflows require an existing ontology repository and branch off **main**.
 
--- [Ontology Creation](https://github.com/ckindermann/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** (this branch) 
--- [Contributing on GitHub] : **github**
--- [Manual Ontology Editing]: **manual-edit**
--- [Pattern-Based Editing]: **pattern**
--- [Ontology Import]: **import**
--- [Ontology Release]: **release**
--- [Ontology Documentation]: **documentation**
--- [Automated Testing]: **testing**
--- [Continuous Integration]: **integration**
+- [Ontology Creation](https://github.com/ckindermann/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** (this branch) 
+- [Contributing on GitHub] : **github**
+- [Manual Ontology Editing]: **manual-edit**
+- [Pattern-Based Editing]: **pattern**
+- [Ontology Import]: **import**
+- [Ontology Release]: **release**
+- [Ontology Documentation]: **documentation**
+- [Automated Testing]: **testing**
+- [Continuous Integration]: **integration**
 
 ## Ontology Creation
 
