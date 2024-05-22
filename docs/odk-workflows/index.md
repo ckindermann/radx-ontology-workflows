@@ -11,7 +11,7 @@ Ontology maintainers are responsible for
 
 1. [Setting up ontology repositories](RepositorySetup.md),
 2. [Managing documantation](ManageDocumentation.md), 
-3. [Managing ontology imports](UpdateImports.md)
+3. [Managing ontology imports](SettingUpImports.md)
 4. Managing pattern-based axiom generation pipelines,
 5. [Managing ontology quality control measures](ManageAutomatedTest.md),
 6. Merging pull requests,
@@ -21,11 +21,11 @@ Ontology curators are primarily concerned with the development of the *content* 
 This means that ontology curators will only perform actions that result in changes to the ontology's content, i.e, axioms. There are only three ways in which an ontology curator can contribute:
 
 1. [Authoring axioms directly](EditorsWorkflow.md),
-2. Request the import of terms/axioms from external ontologies, 
+2. [Request the import of terms/axioms from external ontologies](UpdateImports.md), 
 3. Author axioms via patterns
 
 
 ## Config Workflows
 
-- [Manage your ODK Repository](RepoManagement.md)
+- [Updating your ODK Repository](RepoManagement.md)
 - [Setting up Docker for ODK](SettingUpDockerForODK.md)
