@@ -17,7 +17,7 @@ Ontology maintainers are responsible for
 3. [Managing ontology imports](SettingUpImports.md)
 4. Managing pattern-based axiom generation pipelines,
 5. [Managing ontology quality control measures](ManageAutomatedTest.md),
-6. Merging pull requests,
+6. [Merging pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request),
 7. [Creating ontology releases](ReleaseWorkflow.md),
 
 ### Ontology Curators
