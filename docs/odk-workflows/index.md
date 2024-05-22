@@ -13,7 +13,7 @@ In the context of ontologies for the RADx Data Hub, we distinguish between *two*
 Ontology maintainers are responsible for
 
 1. [Setting up ontology repositories](RepositorySetup.md),
-2. [Managing documantation](ManageDocumentation.md), 
+2. [Managing documentation](ManageDocumentation.md), 
 3. [Managing ontology imports](SettingUpImports.md)
 4. Managing pattern-based axiom generation pipelines,
 5. [Managing ontology quality control measures](ManageAutomatedTest.md),
@@ -26,8 +26,8 @@ Ontology curators are primarily concerned with the development of the *content* 
 This means that ontology curators will only perform actions that result in changes to the ontology's content, i.e, axioms. There are only three ways in which an ontology curator can contribute:
 
 1. [Authoring axioms directly](EditorsWorkflow.md),
-2. [Request the import of terms/axioms from external ontologies](UpdateImports.md), 
-3. Author axioms via patterns
+2. [Requesting terms/axioms to be imported from external ontologies](UpdateImports.md), 
+3. Authoring axioms via patterns
 
 
 ## Config Workflows
