@@ -7,6 +7,9 @@ We use the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontolog
 
 In the context of ontologies for the RADx Data Hub, we distinguish between *two* roles of ontology developers: ontology *maintainers* and ontology *curators*.
 
+
+### Ontology Maintainers
+
 Ontology maintainers are responsible for
 
 1. [Setting up ontology repositories](RepositorySetup.md),
@@ -16,6 +19,8 @@ Ontology maintainers are responsible for
 5. [Managing ontology quality control measures](ManageAutomatedTest.md),
 6. Merging pull requests,
 7. [Creating ontology releases](ReleaseWorkflow.md),
+
+### Ontology Curators
 
 Ontology curators are primarily concerned with the development of the *content* of an ontology.
 This means that ontology curators will only perform actions that result in changes to the ontology's content, i.e, axioms. There are only three ways in which an ontology curator can contribute:
