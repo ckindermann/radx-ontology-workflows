@@ -12,3 +12,5 @@ The ontology creation workflow specifies how you can quickly set up an ontology 
     4. Change the value of `uribase` from `https://github.com/bmir-radx` to the preferred base URI of your ontology
 5. Generate the repository: `sh seed-via-docker.sh -c -C rxow-odk.yaml` --- the results will be in the folder `./target/`
 6. Push to GitHub: Follow the instructions printed by `seed-via-docker.sh` when it finishes successfully
+
+After executing the steps above, you should end up with a repository structure similar to [this example](https://github.com/ckindermann/radx-ontology-workflows).
