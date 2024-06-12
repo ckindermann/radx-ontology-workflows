@@ -32,7 +32,7 @@ This branch (**edit**) specifies the workflow for manually editing the ontology.
 git add src/ontology/rxow-edit.owl
 git commit -m "Added new term #issue"
 ```
-5. Create Pull request on GitHub, request reviews, and merge (see [contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) for more details.
+5. Create Pull request on GitHub, request reviews, and merge (see [contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) for more details).
 
 You should now have a repository structure as shown in this branch (**edit**).
 
