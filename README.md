@@ -25,14 +25,14 @@ This branch (**edit**) specifies the workflow for manually editing the ontology.
 ## Ontology Edit
 
 1. Create issue that describes the change you are about to make.
-2. Create a feature branch (with a meaningful name - possibly referencing the opened issue)  
-3. Perform edit in `src/ontology/rxow-edit.owl` (using Protégé, a text editor, etc.)
-4. Commit changes 
+2. Create a feature branch (with a meaningful name - possibly referencing the opened issue).
+3. Perform edit in `src/ontology/rxow-edit.owl` (using Protégé, a text editor, etc.).
+4. Commit changes: 
 ```
 git add src/ontology/rxow-edit.owl
 git commit -m "Added new term #issue"
 ```
-5. Create Pull request on GitHub
+5. Create Pull request on GitHub.
 
 You should now have a repository structure as shown in this branch (**edit**).
 
