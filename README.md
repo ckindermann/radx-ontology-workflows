@@ -1,4 +1,4 @@
-![Build Status](https://github.com/ckindermann/radx-ontology-workflows/actions/workflows/qc.yml/badge.svg)
+![Build Status](https://github.com/bmir-radx/radx-ontology-workflows/actions/workflows/qc.yml/badge.svg)
 # RADx Ontology Workflows
 
 Description: This repository specifies standard operating procedures for the creation, review, publication, and maintenance of ontologies in the RADx Data Hub.
@@ -11,7 +11,7 @@ Every branch in this repository specifies a separate workflow and exemplifies th
 
 This branch (**github**) specifies the workflow for making changes in an ontology repository hosted on GitHub.
 
-- [Ontology Creation](https://github.com/ckindermann/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** 
+- [Ontology Creation](https://github.com/bmir-radx/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** 
 - [Contributing on GitHub](todo.fix.me) : **github** (this branch)
 - [Manual Ontology Editing](todo.fix.me): **manual-edit**
 - [Pattern-Based Editing](todo.fix.me): **pattern**

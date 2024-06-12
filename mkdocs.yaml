@@ -18,8 +18,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
-site_url: https://ckindermann.github.io/radx-ontology-workflows/
-repo_url: https://github.com/ckindermann/radx-ontology-workflows/
+site_url: https://bmir-radx.github.io/radx-ontology-workflows/
+repo_url: https://github.com/bmir-radx/radx-ontology-workflows/
 
 nav:
   - Getting started: index.md
@@ -38,4 +38,3 @@ nav:
           - Continuous Integration: odk-workflows/ContinuousIntegration.md
           - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md 
       - Contributing: contributing.md
-
