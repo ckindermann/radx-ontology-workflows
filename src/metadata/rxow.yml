@@ -4,8 +4,8 @@ idspace: RXOW
 base_url: /obo/rxow
 
 products:
-- rxow.owl: https://raw.githubusercontent.com/ckindermann/radx-ontology-workflows/main/rxow.owl
-- rxow.obo: https://raw.githubusercontent.com/ckindermann/radx-ontology-workflows/main/rxow.obo
+- rxow.owl: https://raw.githubusercontent.com/bmir-radx/radx-ontology-workflows/main/rxow.owl
+- rxow.obo: https://raw.githubusercontent.com/bmir-radx/radx-ontology-workflows/main/rxow.obo
 
 term_browser: ontobee
 example_terms:
@@ -14,15 +14,14 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/ckindermann/radx-ontology-workflows/v
+  replacement: https://raw.githubusercontent.com/bmir-radx/radx-ontology-workflows/v
 
 - prefix: /tracker/
-  replacement: https://github.com/ckindermann/radx-ontology-workflows/issues
+  replacement: https://github.com/bmir-radx/radx-ontology-workflows/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/RXOW?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/ckindermann/radx-ontology-workflows/main/
-
+  replacement: https://raw.githubusercontent.com/bmir-radx/radx-ontology-workflows/main/

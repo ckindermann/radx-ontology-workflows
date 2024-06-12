@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/ckindermann/radx-ontology-workflows/actions/workflows/qc.yml/badge.svg)
+![Build Status](https://github.com/bmir-radx/radx-ontology-workflows/actions/workflows/qc.yml/badge.svg)
 # RADx Ontology Workflows
 
 Description: This repository specifies standard operating procedures for the creation, review, publication, and maintenance of ontologies in the RADx Data Hub.
@@ -12,15 +12,15 @@ Every branch in this repository specifies a separate workflow and exemplifies th
 
 This branch (**edit**) specifies the workflow for manually editing the ontology.
 
-- [Ontology Creation](https://github.com/ckindermann/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** 
-- [Contributing on GitHub](https://github.com/ckindermann/radx-ontology-workflows/tree/github) : **github**
-- [Manual Ontology Editing](https://github.com/ckindermann/radx-ontology-workflows/tree/edit): **manual-edit** (this branch)
-- [Pattern-Based Editing](https://github.com/ckindermann/radx-ontology-workflows/tree/patterns): **patterns**
-- [Ontology Import](https://github.com/ckindermann/radx-ontology-workflows/tree/import): **import**
-- [Ontology Release](https://github.com/ckindermann/radx-ontology-workflows/tree/release): **release**
-- [Ontology Documentation](https://github.com/ckindermann/radx-ontology-workflows/tree/documentation): **documentation**
-- [Automated Testing](https://github.com/ckindermann/radx-ontology-workflows/tree/testing): **testing**
-- [Continuous Integration](https://github.com/ckindermann/radx-ontology-workflows/tree/integration): **integration**
+- [Ontology Creation](https://github.com/bmir-radx/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** 
+- [Contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) : **github**
+- [Manual Ontology Editing](https://github.com/bmir-radx/radx-ontology-workflows/tree/edit): **manual-edit** (this branch)
+- [Pattern-Based Editing](https://github.com/bmir-radx/radx-ontology-workflows/tree/patterns): **patterns**
+- [Ontology Import](https://github.com/bmir-radx/radx-ontology-workflows/tree/import): **import**
+- [Ontology Release](https://github.com/bmir-radx/radx-ontology-workflows/tree/release): **release**
+- [Ontology Documentation](https://github.com/bmir-radx/radx-ontology-workflows/tree/documentation): **documentation**
+- [Automated Testing](https://github.com/bmir-radx/radx-ontology-workflows/tree/testing): **testing**
+- [Continuous Integration](https://github.com/bmir-radx/radx-ontology-workflows/tree/integration): **integration**
 
 ## Ontology Edit
 
@@ -36,7 +36,7 @@ git commit -m "Added new term #issue"
 
 You should now have a repository structure as shown in this branch (**edit**).
 
-For more details see [workflow for editing ontologies](https://ckindermann.github.io/radx-ontology-workflows/odk-workflows/EditorsWorkflow/).
+For more details see [workflow for editing ontologies](https://bmir-radx.github.io/radx-ontology-workflows/odk-workflows/EditorsWorkflow/).
 
 ## Acknowledgements
 

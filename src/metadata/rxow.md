@@ -3,10 +3,10 @@ layout: ontology_detail
 id: rxow
 title: RADx Ontology Workflows
 jobs:
-  - id: https://travis-ci.org/ckindermann/radx-ontology-workflows
+  - id: https://travis-ci.org/bmir-radx/radx-ontology-workflows
     type: travis-ci
 build:
-  checkout: git clone https://github.com/ckindermann/radx-ontology-workflows.git
+  checkout: git clone https://github.com/bmir-radx/radx-ontology-workflows.git
   system: git
   path: "."
 contact:
@@ -15,7 +15,7 @@ contact:
   github: 
 description: RADx Ontology Workflows is an ontology...
 domain: stuff
-homepage: https://github.com/ckindermann/radx-ontology-workflows
+homepage: https://github.com/bmir-radx/radx-ontology-workflows
 products:
   - id: rxow.owl
     name: "RADx Ontology Workflows main release in OWL format"
@@ -32,7 +32,7 @@ products:
 dependencies:
 - id: symp
 
-tracker: https://github.com/ckindermann/radx-ontology-workflows/issues
+tracker: https://github.com/bmir-radx/radx-ontology-workflows/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY
@@ -41,4 +41,3 @@ activity_status: active
 
 Enter a detailed description of your ontology here. You can use arbitrary markdown and HTML.
 You can also embed images too.
-
