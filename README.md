@@ -39,7 +39,7 @@ All other workflows require an existing ontology repository and branch off **mai
 6. Push to GitHub: Follow the instructions printed by `seed-via-docker.sh` when it finishes successfully
 
 You should now have a repository structure as shown in this branch (**main**).
-Next, you should familiarize yourself with the general workflow for contributing to an ontology repository hosted on GitHub: [Contributing on GitHub](todo.fix.me) (**github**).
+Next, you should familiarize yourself with the general workflow for contributing to an ontology repository hosted on GitHub: [Contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) (**github**).
 
 For more details see the ODK [tutorial for setting up an ODK repository](https://oboacademy.github.io/obook/tutorial/setting-up-project-odk/).
 
