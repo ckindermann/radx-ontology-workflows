@@ -12,14 +12,15 @@ Every branch in this repository specifies a separate workflow and exemplifies th
 This branch (**github**) specifies the workflow for making changes in an ontology repository hosted on GitHub.
 
 - [Ontology Creation](https://github.com/bmir-radx/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** 
-- [Contributing on GitHub](todo.fix.me) : **github** (this branch)
-- [Manual Ontology Editing](todo.fix.me): **manual-edit**
-- [Pattern-Based Editing](todo.fix.me): **pattern**
-- [Ontology Import](todo.fix.me): **import**
-- [Ontology Release](todo.fix.me): **release**
-- [Ontology Documentation](todo.fix.me): **documentation**
-- [Automated Testing](todo.fix.me): **testing**
-- [Continuous Integration](todo.fix.me): **integration**
+- [Contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) : **github** (this branch)
+- [Manual Ontology Editing](https://github.com/bmir-radx/radx-ontology-workflows/tree/edit): **manual-edit** 
+- [Pattern-Based Editing](https://github.com/bmir-radx/radx-ontology-workflows/tree/patterns): **patterns**
+- [Ontology Import](https://github.com/bmir-radx/radx-ontology-workflows/tree/import): **import**
+- [Ontology Release](https://github.com/bmir-radx/radx-ontology-workflows/tree/release): **release**
+- [Ontology Documentation](https://github.com/bmir-radx/radx-ontology-workflows/tree/documentation): **documentation**
+- [Automated Testing](https://github.com/bmir-radx/radx-ontology-workflows/tree/testing): **testing**
+- [Continuous Integration](https://github.com/bmir-radx/radx-ontology-workflows/tree/integration): **integration**
+
 
 ## Contributing on GitHub
 
