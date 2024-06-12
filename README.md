@@ -16,7 +16,7 @@ All other workflows require an existing ontology repository and branch off **mai
 
 - [Ontology Creation](https://github.com/ckindermann/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** (this branch) 
 - [Contributing on GitHub](https://github.com/ckindermann/radx-ontology-workflows/tree/github) : **github**
-- [Manual Ontology Editing](https://github.com/ckindermann/radx-ontology-workflows/tree/edit): **manual-edit** (this branch)
+- [Manual Ontology Editing](https://github.com/ckindermann/radx-ontology-workflows/tree/edit): **manual-edit** 
 - [Pattern-Based Editing](https://github.com/ckindermann/radx-ontology-workflows/tree/patterns): **patterns**
 - [Ontology Import](https://github.com/ckindermann/radx-ontology-workflows/tree/import): **import**
 - [Ontology Release](https://github.com/ckindermann/radx-ontology-workflows/tree/release): **release**
