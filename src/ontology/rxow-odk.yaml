@@ -1,6 +1,6 @@
 id: rxow
 title: "RADx Ontology Workflows"
-github_org: ckindermann
+github_org: bmir-radx
 repo: radx-ontology-workflows 
 git_main_branch: main
 use_context: true
