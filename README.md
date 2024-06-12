@@ -15,14 +15,15 @@ This branch (**main**) specifies the workflow for creating a new ontology reposi
 All other workflows require an existing ontology repository and branch off **main**.
 
 - [Ontology Creation](https://github.com/ckindermann/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** (this branch) 
-- [Contributing on GitHub] : **github**
-- [Manual Ontology Editing]: **manual-edit**
-- [Pattern-Based Editing]: **pattern**
-- [Ontology Import]: **import**
-- [Ontology Release]: **release**
-- [Ontology Documentation]: **documentation**
-- [Automated Testing]: **testing**
-- [Continuous Integration]: **integration**
+- [Contributing on GitHub](https://github.com/ckindermann/radx-ontology-workflows/tree/github) : **github**
+- [Manual Ontology Editing](https://github.com/ckindermann/radx-ontology-workflows/tree/edit): **manual-edit** (this branch)
+- [Pattern-Based Editing](https://github.com/ckindermann/radx-ontology-workflows/tree/patterns): **patterns**
+- [Ontology Import](https://github.com/ckindermann/radx-ontology-workflows/tree/import): **import**
+- [Ontology Release](https://github.com/ckindermann/radx-ontology-workflows/tree/release): **release**
+- [Ontology Documentation](https://github.com/ckindermann/radx-ontology-workflows/tree/documentation): **documentation**
+- [Automated Testing](https://github.com/ckindermann/radx-ontology-workflows/tree/testing): **testing**
+- [Continuous Integration](https://github.com/ckindermann/radx-ontology-workflows/tree/integration): **integration**
+
 
 ## Ontology Creation
 
