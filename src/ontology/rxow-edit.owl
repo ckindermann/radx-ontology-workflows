@@ -22,6 +22,7 @@ Annotation(dcterms:title "RADx Ontology Workflows")
 
 
 Declaration(Class(<https://github.com/bmir-radx/rxow/RXOW_0000000>))
+Declaration(Class(<https://github.com/bmir-radx/rxow/RXOW_0000001>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -42,6 +43,9 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/rxow/RXOW_0000000> "root node"@en)
 
+SubClassOf(<https://github.com/bmir-radx/rxow/RXOW_0000001> <https://github.com/bmir-radx/rxow/RXOW_0000000>)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/rxow/RXOW_0000001> "example node"@en)
+
 
 )
-
