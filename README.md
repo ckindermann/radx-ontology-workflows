@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/bmir-radx/radx-ontology-workflows/actions/workflows/qc.yml/badge.svg)
 # RADx Ontology Workflows
 
-Description: This repository specifies standard operating procedures for the creation, review, publication, and maintenance of ontologies in the RADx Data Hub.
+This repository specifies standard operating procedures for the creation, review, publication, and maintenance of ontologies in the RADx Data Hub.
 
 We use the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) to execute [standardized workflows](https://doi.org/10.1093/database/baac087) based on [best practices](https://obofoundry.org/principles/fp-000-summary.html) recommended by the [OBO Foundry](https://obofoundry.org/).
 
