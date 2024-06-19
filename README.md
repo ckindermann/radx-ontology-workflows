@@ -9,8 +9,6 @@ We use the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontolog
 ## Summary  
 
 Every branch in this repository specifies a separate workflow and exemplifies the results of its execution.
-
-Every branch in this repository specifies a separate workflow and exemplifies the results of its execution.
 This branch (**main**) specifies the workflow for creating a new ontology repository.
 All other workflows require an existing ontology repository and branch off **main**.
 
