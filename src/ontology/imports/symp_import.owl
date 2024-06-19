@@ -7,10 +7,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://github.com/bmir-radx/rxow/rxow/imports/symp_import.owl>
-<https://github.com/bmir-radx/rxow/rxow/releases/2024-05-14/imports/symp_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/symp/releases/2024-02-09/symp.owl>)
-Annotation(owl:versionInfo "2024-05-14")
+<https://github.com/bmir-radx/rxow/rxow/releases/2024-06-19/imports/symp_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/symp/releases/2024-05-17/symp.owl>)
+Annotation(owl:versionInfo "2024-06-19")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0000462>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0000567>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
@@ -18,8 +21,33 @@ Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/SYMP_0000462> (symptom)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://link.springer.com/chapter/10.1007/978-1-4615-4789-1_5") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://www.merriam-webster.com/dictionary/symptom") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://www.nature.com/subjects/signs-and-symptoms") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SYMP_0000462> "A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SYMP_0000462> "symptoms")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_0000462> "SYMP:0000462")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SYMP_0000462> "symptom")
+
+# Class: <http://purl.obolibrary.org/obo/SYMP_0000567> (general symptom)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SYMP_0000567> "ICD9CM_2005:780")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SYMP_0000567> "UMLS_CUI:C0159028")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SYMP_0000567> "UMLS_ICD9CM_2005_AUI:A0284119")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SYMP_0000567> "symptoms")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_0000567> "SYMP:0000567")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SYMP_0000567> "general symptom")
+SubClassOf(<http://purl.obolibrary.org/obo/SYMP_0000567> <http://purl.obolibrary.org/obo/SYMP_0000462>)
 
 
 )
