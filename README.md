@@ -9,37 +9,35 @@ We use the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontolog
 ## Summary  
 
 Every branch in this repository specifies a separate workflow and exemplifies the results of its execution.
-This branch (**main**) specifies the workflow for creating a new ontology repository.
+This branch (**import**) specifies the workflow for working with ontology imports, e.g., adding/removing terms (for customizing import strategies, like changing the module type, see [here](https://bmir-radx.github.io/radx-ontology-workflows/odk-workflows/RepoManagement/).
+
+.
 All other workflows require an existing ontology repository and branch off **main**.
 
-- [Ontology Creation](https://github.com/bmir-radx/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main** (this branch) 
+- [Ontology Creation](https://github.com/bmir-radx/radx-ontology-workflows?tab=readme-ov-file#ontology-creation): **main**
 - [Contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) : **github**
 - [Manual Ontology Editing](https://github.com/bmir-radx/radx-ontology-workflows/tree/edit): **manual-edit** 
 - [Pattern-Based Editing](https://github.com/bmir-radx/radx-ontology-workflows/tree/patterns): **patterns**
-- [Ontology Import](https://github.com/bmir-radx/radx-ontology-workflows/tree/import): **import**
+- [Ontology Import](https://github.com/bmir-radx/radx-ontology-workflows/tree/import): **import** (this branch)
 - [Ontology Release](https://github.com/bmir-radx/radx-ontology-workflows/tree/release): **release**
 - [Ontology Documentation](https://github.com/bmir-radx/radx-ontology-workflows/tree/documentation): **documentation**
 - [Automated Testing](https://github.com/bmir-radx/radx-ontology-workflows/tree/testing): **testing**
 - [Continuous Integration](https://github.com/bmir-radx/radx-ontology-workflows/tree/integration): **integration**
 
 
-## Ontology Creation
+## Ontology Imports
 
-1. Create a new folder for the ontology: `mkdir ontology-name` (in this example, we use `radx-ontology-workflows` as an example name)
-2. Navigate into the folder: `cd ontology-name`
-3. Download the ODK seed script: `wget https://raw.githubusercontent.com/INCATools/ontology-development-kit/master/seed-via-docker.sh`
-4. Download the RADx config file: `wget https://raw.githubusercontent.com/bmir-radx/radx-ontology-workflows/main/src/ontology/rxow-odk.yaml`
-    1. Change the value of `id` from `rdow` to an acronym of your ontology (if possible, no less than 4 characters)
-    2. Change the value of `title` from `RADx Ontology Workflows` to a suitable title of your ontology
-    3. Change the value of `github_org` from `bmir-radx` to your GitHub organization
-    4. Change the value of `uribase` from `https://github.com/bmir-radx` to the preferred base URI of your ontology
-5. Generate the repository: `sh seed-via-docker.sh -c -C rxow-odk.yaml` --- the results will be in the folder `./target/`
-6. Push to GitHub: Follow the instructions printed by `seed-via-docker.sh` when it finishes successfully
+Every imported ontology has, by default, a term file associated with it (located here: `src/ontology/imports/`).
+For example, we configured [rxow-odk.yml](https://github.com/bmir-radx/radx-ontology-workflows/blob/main/src/ontology/rxow-odk.yaml) to import the Symptom Ontology (SYMP) (see line [19](https://github.com/bmir-radx/radx-ontology-workflows/blob/main/src/ontology/rxow-odk.yaml#L19)).
+So, there is a `symp_terms.txt` in `src/ontology/imports/`.
 
-You should now have a repository structure as shown in this branch (**main**).
-Next, you should familiarize yourself with the general workflow for contributing to an ontology repository hosted on GitHub: [Contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) (**github**).
+1. Add/Remove a term: Here, we add `SYMP:0000567 (general symptom) to `symp_terms.txt`. 
+2. Update the import  `sh run.sh make refresh-symp` (this runs the configured import strategy for SYMP, in this case, a bottom module for terms in `symp_terms.txt` is extracted and saved in `src/ontology/imports/symp_import.owl`.
+3. Commit and create a pull request following the [Contributing on GitHub](https://github.com/bmir-radx/radx-ontology-workflows/tree/github) workflow.
 
-For more details see the ODK [tutorial for setting up an ODK repository](https://oboacademy.github.io/obook/tutorial/setting-up-project-odk/).
+You should now have a repository structure as shown in this branch (**import**).
+
+For more details see the ODK [workflow for imports](https://bmir-radx.github.io/radx-ontology-workflows/odk-workflows/UpdateImports/).
 
 ## Acknowledgements
 
